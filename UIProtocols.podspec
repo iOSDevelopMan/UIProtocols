@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UIProtocols'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UIProtocols.'
+  s.summary          = 'This library helps to create UIViewControllers and UIViews easily'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,19 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Aliaksei Kachura/UIProtocols'
+  s.description      = 'This library contains protocols, that help create UIViewControllers from Storyboard and UIViews from xibs. There are some helpers to work with UITableView and UICollectionView as well'
+  s.homepage         = 'https://github.com/iOSDevelopMan/UIProtocols.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Aliaksei Kachura' => 'alexonthework@gmail.com' }
-  s.source           = { :git => 'https://github.com/Aliaksei Kachura/UIProtocols.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSDevelopMan/UIProtocols.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.9'
   s.source_files = 'UIProtocols/Classes/**/*'
   
   # s.resource_bundles = {

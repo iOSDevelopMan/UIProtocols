@@ -10,11 +10,18 @@
 		1FA7226B87B914B8BE5E63DF319E0A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		20DE70FC6B314305F0DC283B2F24B073 /* Pods-UIProtocols_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7A0E1B13986DAA0DDED1D87DA3DCC /* Pods-UIProtocols_Tests-dummy.m */; };
 		320BA93EB78856291DA41CFBCCEB1734 /* Pods-UIProtocols_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B976C2AE6D7CF1329C1E9C5E0E1A0914 /* Pods-UIProtocols_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		320E347E2B347D7F00F96671 /* TestClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E347D2B347D7F00F96671 /* TestClass2.swift */; };
+		320E34852B34866F00F96671 /* StoryboardableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E34822B34866F00F96671 /* StoryboardableProtocol.swift */; };
+		320E34862B34866F00F96671 /* XibableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E34832B34866F00F96671 /* XibableProtocol.swift */; };
+		320E34872B34866F00F96671 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E34842B34866F00F96671 /* ReusableProtocol.swift */; };
+		320E348E2B3486ED00F96671 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E34882B3486ED00F96671 /* UICollectionView+Extensions.swift */; };
+		320E34902B3486ED00F96671 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E348A2B3486ED00F96671 /* UITableViewCell+Extensions.swift */; };
+		320E34912B3486ED00F96671 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E348B2B3486ED00F96671 /* UITableView+Extensions.swift */; };
+		320E34922B3486ED00F96671 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E348C2B3486ED00F96671 /* UIViewController+Extensions.swift */; };
+		320E34932B3486ED00F96671 /* UITableViewHeaderFooterView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E348D2B3486ED00F96671 /* UITableViewHeaderFooterView+Extensions.swift */; };
+		320E34952B34872A00F96671 /* UICollectionReusableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320E34942B34872A00F96671 /* UICollectionReusableView+Extensions.swift */; };
 		55A7EC3D8184AA54E33EC6AACF265D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90E2FBBBF74C7DF4D1A093A9006E076B /* UIProtocols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B81075C3CAAFD8054C7F04AF4EB39 /* UIProtocols-dummy.m */; };
 		A1B3AB01AAB201BF5AE9F27668B11925 /* Pods-UIProtocols_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEC2953BA9323E61EF1EEC4D98CD704 /* Pods-UIProtocols_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0012C6FF09F9D960E8C564F7108D2D7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FDEBCA2E6D830F096EC4EB37EC9E86 /* ReplaceMe.swift */; };
 		D65D5839A96510FE9B880165CFC46637 /* Pods-UIProtocols_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD417BC9E6323BD72DDC668729C04CC /* Pods-UIProtocols_Example-dummy.m */; };
 		D67B1FE311D59DE04F6461D593B0136F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EF250B3DF42DDF7F6E0A5E6BA25CA554 /* UIProtocols-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3576C48FC4BC7EAE62FF51040231A0 /* UIProtocols-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +50,15 @@
 		15ADF0B83E40B7030A8AFCE3C938B017 /* Pods-UIProtocols_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIProtocols_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2AD417BC9E6323BD72DDC668729C04CC /* Pods-UIProtocols_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIProtocols_Example-dummy.m"; sourceTree = "<group>"; };
 		3117BAF89F7CB51E711A2C0049C0F5EE /* Pods-UIProtocols_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIProtocols_Example.release.xcconfig"; sourceTree = "<group>"; };
-		320E347D2B347D7F00F96671 /* TestClass2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestClass2.swift; path = UIProtocols/Classes/TestClass2.swift; sourceTree = "<group>"; };
+		320E34822B34866F00F96671 /* StoryboardableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardableProtocol.swift; sourceTree = "<group>"; };
+		320E34832B34866F00F96671 /* XibableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibableProtocol.swift; sourceTree = "<group>"; };
+		320E34842B34866F00F96671 /* ReusableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		320E34882B3486ED00F96671 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		320E348A2B3486ED00F96671 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		320E348B2B3486ED00F96671 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		320E348C2B3486ED00F96671 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		320E348D2B3486ED00F96671 /* UITableViewHeaderFooterView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewHeaderFooterView+Extensions.swift"; sourceTree = "<group>"; };
+		320E34942B34872A00F96671 /* UICollectionReusableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extensions.swift"; sourceTree = "<group>"; };
 		361B3DF4BFBD47BC0D0C8D137FD2F347 /* Pods-UIProtocols_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIProtocols_Example.modulemap"; sourceTree = "<group>"; };
 		3B461EAEBAE03C4DC46EEFE9967FE5EB /* Pods-UIProtocols_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIProtocols_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		50D48AD9B322DD5F5104FE59738FFF4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -59,7 +74,6 @@
 		8EEC2953BA9323E61EF1EEC4D98CD704 /* Pods-UIProtocols_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIProtocols_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8F8A87CACED254BD31904E1FFCA097F0 /* UIProtocols.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIProtocols.modulemap; sourceTree = "<group>"; };
 		90A776C2BB3DA37A00CF43BE58C80630 /* Pods_UIProtocols_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIProtocols_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91FDEBCA2E6D830F096EC4EB37EC9E86 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIProtocols/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		98C3F631A1DC9CAC60CBE6F912F05DA9 /* UIProtocols-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIProtocols-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3934EB67155BA7FB6D7ED52DC7A09A1 /* UIProtocols.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIProtocols.debug.xcconfig; sourceTree = "<group>"; };
@@ -126,6 +140,29 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		320E347F2B34859B00F96671 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				320E34822B34866F00F96671 /* StoryboardableProtocol.swift */,
+				320E34832B34866F00F96671 /* XibableProtocol.swift */,
+				320E34842B34866F00F96671 /* ReusableProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		320E34812B3485EE00F96671 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				320E348C2B3486ED00F96671 /* UIViewController+Extensions.swift */,
+				320E348B2B3486ED00F96671 /* UITableView+Extensions.swift */,
+				320E348A2B3486ED00F96671 /* UITableViewCell+Extensions.swift */,
+				320E348D2B3486ED00F96671 /* UITableViewHeaderFooterView+Extensions.swift */,
+				320E34882B3486ED00F96671 /* UICollectionView+Extensions.swift */,
+				320E34942B34872A00F96671 /* UICollectionReusableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,8 +226,8 @@
 		A3215853474BA36828729D23463455FD /* UIProtocols */ = {
 			isa = PBXGroup;
 			children = (
-				91FDEBCA2E6D830F096EC4EB37EC9E86 /* ReplaceMe.swift */,
-				320E347D2B347D7F00F96671 /* TestClass2.swift */,
+				320E34812B3485EE00F96671 /* Extensions */,
+				320E347F2B34859B00F96671 /* Protocols */,
 				80D0E47AF9D993AFFE275B9442B8F0A6 /* Pod */,
 				57EC5E6E8EE1DA35866A5C01108BDEBA /* Support Files */,
 			);
@@ -375,9 +412,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0012C6FF09F9D960E8C564F7108D2D7 /* ReplaceMe.swift in Sources */,
 				90E2FBBBF74C7DF4D1A093A9006E076B /* UIProtocols-dummy.m in Sources */,
-				320E347E2B347D7F00F96671 /* TestClass2.swift in Sources */,
+				320E34862B34866F00F96671 /* XibableProtocol.swift in Sources */,
+				320E348E2B3486ED00F96671 /* UICollectionView+Extensions.swift in Sources */,
+				320E34952B34872A00F96671 /* UICollectionReusableView+Extensions.swift in Sources */,
+				320E34912B3486ED00F96671 /* UITableView+Extensions.swift in Sources */,
+				320E34922B3486ED00F96671 /* UIViewController+Extensions.swift in Sources */,
+				320E34872B34866F00F96671 /* ReusableProtocol.swift in Sources */,
+				320E34932B3486ED00F96671 /* UITableViewHeaderFooterView+Extensions.swift in Sources */,
+				320E34902B3486ED00F96671 /* UITableViewCell+Extensions.swift in Sources */,
+				320E34852B34866F00F96671 /* StoryboardableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

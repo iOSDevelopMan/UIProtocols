@@ -1,0 +1,16 @@
+PODS:
+  - UIProtocols (0.1.0)
+
+DEPENDENCIES:
+  - UIProtocols (from `../`)
+
+EXTERNAL SOURCES:
+  UIProtocols:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIProtocols: f9439d1e6788cc9d54844f8d5fbeccb50880043d
+
+PODFILE CHECKSUM: 8697a4cdbc3f0b2219240ccb715a21b68ca70e5b
+
+COCOAPODS: 1.14.3

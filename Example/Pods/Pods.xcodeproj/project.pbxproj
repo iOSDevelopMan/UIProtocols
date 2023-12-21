@@ -147,7 +147,8 @@
 				320E34832B34866F00F96671 /* XibableProtocol.swift */,
 				320E34842B34866F00F96671 /* ReusableProtocol.swift */,
 			);
-			path = Protocols;
+			name = Protocols;
+			path = UIProtocols/Classes/Protocols;
 			sourceTree = "<group>";
 		};
 		320E34812B3485EE00F96671 /* Extensions */ = {
@@ -160,7 +161,8 @@
 				320E34882B3486ED00F96671 /* UICollectionView+Extensions.swift */,
 				320E34942B34872A00F96671 /* UICollectionReusableView+Extensions.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = UIProtocols/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
